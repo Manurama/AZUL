@@ -241,5 +241,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-__pycache__/
-.idea/
+__pycache__/*
+.idea/*.*
