@@ -27,3 +27,7 @@ steine = 5 * [spielstein(1)]
 zeile1.steine_in_treppe(steine, strafliste)
 print(zeile1.steinliste)
 print(strafliste)
+zeile1.steine_verlegen()
+print(zeile1.fliessenfeld)
+print(zeile1.steinliste)
+print(zeile1.belegung)
