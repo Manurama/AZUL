@@ -7,6 +7,8 @@ class scheibe:
         for i in range (4):
             self.steine_auf_scheibe.append(sack.stein_rausnehmen())
 
+# falls Farbe vorhanden, werden die Steine von der Scheibe genommen und alle Steine von der Farbe zurückgegeben
+# die restlichen Steine kommen in das übergebene Mittelfeld
     def steine_runternehmen(self, farbe, mittelfeld):
         count = 0
         runtergenommene_steine = []
